@@ -15,16 +15,25 @@
     "resources": {
         "media": [
             {
-                "name": "FONT_UBUNTU_42",
-                "type": "font",
-                "file": "fonts/Ubuntu-Regular.ttf"
+                "name": "IMAGE_PREVIEW",
+                "type": "png",
+                "menuIcon": true,
+                "file": "images/preview.png"
             },
             {
+                "characterRegex": "[a-zA-Z'.? ]",
                 "name": "FONT_UBUNTU_14",
                 "type": "font",
                 "file": "fonts/Ubuntu-Regular.ttf"
             },
             {
+                "characterRegex": "[0-9:]",
+                "name": "FONT_UBUNTU_42",
+                "type": "font",
+                "file": "fonts/Ubuntu-Regular.ttf"
+            },
+            {
+                "characterRegex": "[a-zA-Z0-9 ]",
                 "name": "FONT_UBUNTU_BOLD_18",
                 "type": "font",
                 "file": "fonts/Ubuntu-Bold.ttf"
