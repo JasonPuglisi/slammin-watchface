@@ -64,7 +64,7 @@ void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
     text_layer_set_text(header_text_layer, header_buffer);
   }  
   
-  if (units_changed & MONTH_UNIT) {
+  if (units_changed & DAY_UNIT) {
     char month_buffer[4];
     int month = tick_time->tm_mon;
     int month_day = tick_time->tm_mday;
@@ -172,7 +172,7 @@ void window_load(Window *window) {
   layer_add_child(window_get_root_layer(window), (Layer*) inverter_layer);
   
   time_t temp = time(NULL);
-  tick_handler(localtime(&temp), MINUTE_UNIT | HOUR_UNIT | DAY_UNIT | MONTH_UNIT);
+  tick_handler(localtime(&temp), MINUTE_UNIT | HOUR_UNIT | DAY_UNIT);
 }
 
 void window_unload(Window *window) {
