@@ -1,43 +1,37 @@
 {
-    "shortName": "Slammin' Watchface",
     "longName": "Slammin' Watchface",
     "capabilities": [
         ""
     ],
-    "watchapp": {
-        "watchface": true
-    },
-    "versionLabel": "1.1.2",
-    "appKeys": {},
-    "companyName": "Jason Puglisi",
-    "versionCode": 1,
     "uuid": "5344d14a-f1e1-496d-8392-19a84a6fe12d",
+    "versionLabel": "1.1.3",
     "resources": {
         "media": [
             {
-                "name": "IMAGE_PREVIEW",
-                "type": "png",
-                "menuIcon": true,
-                "file": "images/preview.png"
-            },
-            {
+                "type": "font",
+                "file": "fonts/Ubuntu-Regular.ttf",
                 "characterRegex": "[a-zA-Z'.? ]",
-                "name": "FONT_UBUNTU_14",
-                "type": "font",
-                "file": "fonts/Ubuntu-Regular.ttf"
+                "name": "FONT_UBUNTU_14"
             },
             {
+                "type": "font",
+                "file": "fonts/Ubuntu-Regular.ttf",
                 "characterRegex": "[0-9:]",
-                "name": "FONT_UBUNTU_42",
-                "type": "font",
-                "file": "fonts/Ubuntu-Regular.ttf"
+                "name": "FONT_UBUNTU_42"
             },
             {
-                "characterRegex": "[a-zA-Z0-9 ]",
-                "name": "FONT_UBUNTU_BOLD_18",
                 "type": "font",
-                "file": "fonts/Ubuntu-Bold.ttf"
+                "file": "fonts/Ubuntu-Bold.ttf",
+                "characterRegex": "[a-zA-Z0-9 ]",
+                "name": "FONT_UBUNTU_BOLD_18"
             }
         ]
-    }
+    },
+    "companyName": "Jason Puglisi",
+    "versionCode": 1,
+    "shortName": "Slammin' Watchface",
+    "watchapp": {
+        "watchface": true
+    },
+    "appKeys": {}
 }
