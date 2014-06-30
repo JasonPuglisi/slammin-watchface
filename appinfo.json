@@ -1,37 +1,37 @@
 {
-    "longName": "Slammin' Watchface",
+    "appKeys": {},
     "capabilities": [
         ""
     ],
-    "uuid": "5344d14a-f1e1-496d-8392-19a84a6fe12d",
-    "versionLabel": "1.1.3",
+    "companyName": "Jason Puglisi",
+    "longName": "Slammin' Watchface",
     "resources": {
         "media": [
             {
-                "type": "font",
-                "file": "fonts/Ubuntu-Regular.ttf",
                 "characterRegex": "[a-zA-Z'.? ]",
-                "name": "FONT_UBUNTU_14"
-            },
-            {
-                "type": "font",
                 "file": "fonts/Ubuntu-Regular.ttf",
-                "characterRegex": "[0-9:]",
-                "name": "FONT_UBUNTU_42"
+                "name": "FONT_UBUNTU_14",
+                "type": "font"
             },
             {
-                "type": "font",
-                "file": "fonts/Ubuntu-Bold.ttf",
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Ubuntu-Regular.ttf",
+                "name": "FONT_UBUNTU_42",
+                "type": "font"
+            },
+            {
                 "characterRegex": "[a-zA-Z0-9 ]",
-                "name": "FONT_UBUNTU_BOLD_18"
+                "file": "fonts/Ubuntu-Bold.ttf",
+                "name": "FONT_UBUNTU_BOLD_18",
+                "type": "font"
             }
         ]
     },
-    "companyName": "Jason Puglisi",
-    "versionCode": 1,
     "shortName": "Slammin' Watchface",
+    "uuid": "5344d14a-f1e1-496d-8392-19a84a6fe12d",
+    "versionCode": 1,
+    "versionLabel": "1.1.3",
     "watchapp": {
         "watchface": true
-    },
-    "appKeys": {}
+    }
 }
